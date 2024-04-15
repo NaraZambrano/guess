@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secret-container{
+  margin: 20px;
+}
+.numbers-containers{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+.secret-number{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+.secret-number label{
+  font-size: xxx-large;
+  
+}
+.playbotton{
+  background-color: yellow;
+}
